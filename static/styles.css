@@ -1,0 +1,69 @@
+/* Color Scheme */
+:root {
+    --primary-color: #FFFFFF;
+    /* White */
+    --secondary-color: #333333;
+    /* Dark Gray */
+    --accent-color: #FFC107;
+    /* Amber */
+    --background-color: #F5F5F5;
+    /* Light Gray */
+}
+
+/* Typography */
+
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="number"] {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--accent-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 100%;
+}
+
+input[type="submit"] {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 16px;
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--secondary-color);
+    background-color: var(--background-color);
+
+}
+
+/* Layout */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
